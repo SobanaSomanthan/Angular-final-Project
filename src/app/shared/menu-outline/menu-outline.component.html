@@ -1,0 +1,29 @@
+<mat-toolbar class="menu-bar">
+<nav class="navbar navbar-expand-sm bg-green navbar-dark">
+    <ul class="navbar-nav">
+      <span class="title">Electro</span>
+
+      <!-- <span class="title">{{"Electro" |translate}} </span>
+       --><div class="menu-title">
+      <li class="nav-item">
+        <a class="nav-link" (click)="navigate('')"><mat-icon matTooltip="Home">home</mat-icon></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"   (click)="navigate('cart')"><mat-icon matTooltip="My Cart">shopping_cart</mat-icon></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="navigate('profile')"><mat-icon matTooltip="My Profile">account_circle</mat-icon></a>
+      </li>
+       <li class="nav-item">
+         <a class="nav-link" (click)="logout()">
+                          <mat-icon matTooltip="Log Out">logout</mat-icon> </a>    
+                      </li>
+    </div>
+    </ul>
+    <!-- <span [style.marginLeft]="'100px"[style.color]='"white"'>
+      <select [(ngModel)]="lang" (change)="changeLang()">
+        <option *ngFor ="let x of languages" value={{x.value}}>{{x.name}}</option>
+      </select>
+    </span>
+ -->  </nav>
+</mat-toolbar>

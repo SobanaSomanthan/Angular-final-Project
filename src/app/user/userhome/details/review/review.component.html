@@ -1,0 +1,59 @@
+        <div class="suggestion">
+            <h3 style="font-size: 20px;">Review about the Product</h3>
+            <div class="rform">
+              <form [formGroup]="reviewForm" (submit)="saveReview(prod)">
+                <table>
+                  <tr>
+                    <th mat-form-field>Name</th>
+                    <td>
+                      <mat-form-field appearance="fill">
+                        <input matInput type="text" formControlName="name">
+                        <mat-error *ngIf="reviewForm.controls.name.hasError('required')">
+                          * Required
+                        </mat-error>
+                        <mat-error *ngIf="reviewForm.controls.name.hasError('minlength')">
+                          Name must be at least three characters long
+                        </mat-error>
+                      </mat-form-field>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th mat-form-field>Email</th>
+                    <td>
+                      <mat-form-field appearance="fill">
+                        <input matInput type="email" formControlName="email">
+                        <mat-error *ngIf="reviewForm.controls.email.hasError('required')">
+                          * Required
+                        </mat-error>
+                        <mat-error *ngIf="reviewForm.controls.email.hasError('pattern')">
+                          Email must be in valid format
+                        </mat-error>
+                      </mat-form-field>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Message</th>
+                    <td>
+                      <mat-form-field appearance="fill">
+                        <textarea matInput rows="6" cols="50" formControlName="message"></textarea>
+                        <mat-error *ngIf="reviewForm.controls.message.hasError('required')">
+                          * Required
+                        </mat-error>
+                        <mat-error *ngIf="reviewForm.controls.message.hasError('minlength')">
+                          Message must be at least 15 characters long
+                        </mat-error>
+                      </mat-form-field>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="text-align: center">
+                      <button mat-raised-button color="primary" type="submit" [disabled]="!reviewForm.valid">
+                        Post Review
+                      </button>
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </div>
+          </div>
+          

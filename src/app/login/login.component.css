@@ -1,0 +1,79 @@
+#login-card{
+    height: 400px;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 30%;;
+    background-color: white;
+    box-shadow: 0px 2px 10px lightgray;
+    position: relative;
+    border:2px solid black;
+    
+}
+.login-image{
+    float: left;
+    background-image: url('http://localhost/login-bg.jpg');
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+mat-card {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+.container{
+    float: right;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}/* 
+.container{
+    height: 30%;
+    width:30%;
+    margin-left: 43%;
+    margin-top: 18%;
+} */
+
+
+/* 
+#log-table{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+input[type="text"], input[type="password"]{
+    height: 30px;
+    width: 200px;
+}
+
+button{
+    background-color: #2ECC71;
+    color: white;
+    border: none;
+}
+
+th,td{
+    height: 50px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 720px) {
+  #login-card{
+     width: 100%;
+     margin: 0px;
+     margin-left: 0px;
+  }
+}
+
+.loading, .errors{
+    position: relative;
+    bottom: 50px;
+    margin-top: 40px;
+    text-align: center;
+    color: green;
+} */

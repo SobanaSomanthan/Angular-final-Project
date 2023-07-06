@@ -1,0 +1,20 @@
+/* .product-scroll{
+   height: 350px;
+   width:  100%;
+   position: relative;
+   right:100px;  
+}
+.search{
+   border: none;
+}
+*/
+.select-container{
+   position: relative;
+}
+.container {
+   position: absolute;
+   margin-top: 20px;
+   float: left;
+}
+ 
+ 

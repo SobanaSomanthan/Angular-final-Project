@@ -1,0 +1,18 @@
+<div class="container">
+<mat-card class="example-card">
+    <mat-card-header>
+        {{product.name}}
+    </mat-card-header>
+    <img mat-card-image class="image-card" src="http://localhost/{{product.image}}" alt="photo"> 
+    <mat-card-content>
+        <p>{{product.price | currency:"INR"}}</p>
+    </mat-card-content> 
+    <div class="full">   
+    <div class="product" (click)="changeRoute()">
+    <button mat-flat-button color="primary"  class="details">Details</button>
+    </div>     
+    <button mat-flat-button color="primary" (click)=addtocart()  class="cart">Add to Cart</button>
+    </div>
+    </mat-card>
+</div>    
+    

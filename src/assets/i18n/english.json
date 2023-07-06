@@ -1,0 +1,8 @@
+{
+    "menubar":{
+        "Electro":"Electro",
+        "home":"home",
+        "My Cart": "My Cart",
+        "Logout":"Logout"
+    }
+}

@@ -1,0 +1,108 @@
+.suggestion {
+  text-align: center;
+  background-color: black;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Gill Sans';
+  
+}
+
+.suggestion h3 {
+  font-size: 34px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-family: 'Gill Sans';
+  font-weight: bold;
+  color: white;
+}
+
+.rform table {
+  width: 70%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.rform th {
+  margin-left: 20px;
+  width: 10%;
+  font-weight: bold;
+  color: white;
+  
+}
+
+.rform td {
+  width: 40%;
+  padding: 10px 0;
+}
+
+.mat-form-field {
+  width: 70%;
+  position: relative;
+}
+
+.mat-input-wrapper {
+  position: relative;
+}
+
+.mat-input-element {
+ margin-left: 20px;
+ margin-right: 20px;
+  width: 80%;
+  
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.mat-input-element:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.mat-error {
+  font-size: 14px;
+  color: red;
+  margin-top: 5px;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+.mat-form-field.mat-form-field textarea {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.mat-form-field.mat-form-field textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover:not([disabled]) {
+  background-color: #0069d9;
+}
+
+button[type="submit"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,44 @@
+<form [formGroup]="productForm"(ngSubmit)="onFormSubmit()">
+<div mat-dialog-content class="content">
+    <div class="row">
+    <mat-form-field appearance="outline">
+        <mat-label>Product Name</mat-label>
+        <input matInput type="text" placeholder="Product Name" formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Product Image</mat-label>
+        <input matInput type="text" placeholder="Product Image" formControlName="aboutitem">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Product Description</mat-label>
+        <textarea style="height: 100px;"   input matInput type="text" placeholder="Product Description" formControlName="image">
+            </textarea>
+    </mat-form-field>
+</div>
+
+<div class="row">
+
+    <mat-form-field appearance="outline">
+        <mat-label>Price</mat-label>
+        <input matInput type="email" placeholder="Price" formControlName="price">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Select the type</mat-label>
+        <mat-select formControlName="type">
+          <mat-option value="Mobile">Mobile</mat-option>
+          <mat-option value="Tablets">Tablets</mat-option>
+          <mat-option value="Laptop">Laptop</mat-option>
+          <mat-option value="Watch">Watch</mat-option>
+        </mat-select>
+      </mat-form-field>
+</div>
+
+<div mat-dialog-actions class="action">
+    <button class="save" mat-raised-button color="primary" type="submit">{{data ? 'Update' : 'Save'}}</button>
+</div>
+    <button  class="cancel" mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
+
+</div>
+</form>

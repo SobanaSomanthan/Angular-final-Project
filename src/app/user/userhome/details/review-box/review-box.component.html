@@ -1,0 +1,19 @@
+<!-- <mat-card class="card">
+    <mat-card-content class="text">
+<p *ngFor="let x of review">
+    {{x.name}} said that ..
+    {{x.message}}
+</p>
+    </mat-card-content>
+</mat-card> -->
+
+<ng-container *ngFor="let x of review">
+    <mat-card class="card">
+        <mat-card-content class="text">
+            <p>
+                {{x.name}} said that ..
+                {{x.message}}
+            </p>
+        </mat-card-content>
+    </mat-card>
+</ng-container>

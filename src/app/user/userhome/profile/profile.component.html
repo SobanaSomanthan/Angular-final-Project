@@ -1,0 +1,69 @@
+<div class="backgroundimage">
+  <img src="http://localhost/bg.jpg" alt="image">
+</div>
+<div class="container">
+    <div class="profile-image">
+      <img src="http://localhost/profile.jpg" alt="image" style="border-radius: 50%; height: 250px; width: 250px;">
+    </div>
+    <div class="profile-wrapper" *ngIf="currentUserData">
+  <div class="profile-details">
+    <p class="username">{{currentUserData.username}}</p>
+    <p class="email">{{ currentUserData.email }}</p>
+    <p class="address">{{currentUserData.address}}</p>
+    <p class="number">{{currentUserData.phonenumber}}</p>
+  </div>
+</div>
+<div *ngIf="!currentUserData">
+  <p>No user data found for current user.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <input matInput type="date" placeholder="Date of Birth" formControlName="dob">
+      <mat-error *ngIf="profileForm.controls['dob'].invalid">Please enter a valid date of birth.</mat-error>
+    </mat-form-field>
+    
+    <mat-form-field>
+      <textarea matInput placeholder="Address" formControlName="address"></textarea>
+      <mat-error *ngIf="profileForm.controls['address'].invalid">Please enter a valid address.</mat-error>
+    </mat-form-field>
+    
+    <mat-form-field>
+      <input matInput type="tel" placeholder="Phone Number" formControlName="phone">
+      <mat-error *ngIf="profileForm.controls['phone'].invalid">Please enter a valid phone number.</mat-error>
+    </mat-form-field>
+    
+    <mat-form-field>
+      <mat-select placeholder="Gender" formControlName="gender">
+        <mat-option *ngFor="let gender of genders" [value]="gender">{{ gender }}</mat-option>
+      </mat-select>
+      <mat-error *ngIf="profileForm.controls['gender'].invalid">Please select a gender.</mat-error>
+    </mat-form-field>
+  
+    <button mat-raised-button color="primary" type="submit">Save</button>
+  </form>
+  
+ --><!-- <ng-container *ngFor="let x of profile">
+    <mat-card class="card">
+        <mat-card-content class="text">
+            <p>
+                {{x.name}}
+                {{x.email}}
+            </p>
+        </mat-card-content>
+    </mat-card>
+</ng-container>
+ -->

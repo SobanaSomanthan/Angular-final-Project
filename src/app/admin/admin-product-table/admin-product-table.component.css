@@ -1,0 +1,42 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .price{
+    padding-left: 20px;
+  }
+  .about{
+    padding: 20px;
+  }
+  .about-header{
+  padding-left: 100px;
+  }
+  .main-body {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 1348px;
+  }
+  
+  .main-body mat-form-field {
+    width: 100%;
+  }
+  
+  .action {
+    display: flex;
+    gap: 5px;
+  }
+  .table-container{
+    width: 100%;
+    padding: 10px;
+
+  }
+  img{
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+  }
+  td{
+    margin: 20px;
+  }
+th{
+  margin: 20px;
+}

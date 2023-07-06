@@ -1,0 +1,304 @@
+{
+  "users": [
+    {
+      "email": "bhargav@gmail.com",
+      "password": "$2a$10$SNrKGBlQh95KnTjHui0queCCW4DW3CIkP.8mYqh/vcuNHjs8hHxby",
+      "username": "bhargav",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$jcGQAa/.bfiuIaKRtIPuGuRVzFvGtowpaHyz0GU7zggb60E3ZOh7i",
+      "username": "naresh",
+      "type": "admin",
+      "id": 11
+    },
+    {
+      "email": "shyam@gmail.com",
+      "password": "$2a$10$ilXetjkFeFv0RbSce7tRuewpjVryc2VdqGIyyGYSKBkMZ1qGiUyj2",
+      "username": "shyam",
+      "type": "user",
+      "id": 12,
+      "user-image": "profile.jpg",
+      "address": "2/12, Nehru Street, New Anna Nagar, Thundalam",
+      "phonenumber": "9823235789"
+    },
+    {
+      "email": "rithick@gmail.com",
+      "password": "$2a$10$U720eG9EMNNM81dHHsRPJ.2TJK19pLvPhqyMGKLK9nehjSMYXmcgC",
+      "username": "rithick",
+      "type": "user",
+      "id": 13
+    },
+    {
+      "email": "soorya@gmail.com",
+      "password": "$2a$10$NPx7tgcOzEx4HTOZ0lYsyex4KFTD4iX/v7w4PCuMo1mQ4siTb7DBu",
+      "username": "soorya",
+      "type": "user",
+      "id": 14
+    },
+    {
+      "email": "sindu@gmail.com",
+      "password": "$2a$10$PqJiXjCnTWC5mZdQAhsexuLMmZ870Jgi9gf1q5nwlinRKX8yJNZwq",
+      "username": "sindu",
+      "type": "user",
+      "address": "chennai",
+      "id": 15
+    },
+    {
+      "email": "sobana@gmail.com",
+      "password": "Sobana",
+      "username": "Sobana",
+      "type": "user",
+      "id": 16
+    },
+    {
+      "email": "sobana1@gmail.com",
+      "password": "Sobana",
+      "username": "Sobana1",
+      "type": "user",
+      "id": 17
+    },
+    {
+      "email": "sobana12@gmail.com",
+      "password": "Sobana12",
+      "username": "Sobana12",
+      "type": "user",
+      "id": 18
+    },
+    {
+      "email": "sobana1234@gmail.com",
+      "password": "Sobana1234",
+      "username": "Sobanaid",
+      "type": "user",
+      "id": 19
+    },
+    {
+      "email": "health@gmail.com",
+      "password": "Soba",
+      "username": "Soba",
+      "type": "user",
+      "id": 20
+    },
+    {
+      "email": "health@gmail.com",
+      "password": "Soba",
+      "username": "Soba",
+      "type": "user",
+      "id": 21
+    },
+    {
+      "email": "health@gmail.com",
+      "password": "Soba",
+      "username": "Soba",
+      "type": "user",
+      "id": 22
+    },
+    {
+      "email": "bhargav@gmail.com",
+      "password": "12345",
+      "username": "bhargav",
+      "type": "user",
+      "id": 23
+    },
+    {
+      "email": "bhargav@gmail.com",
+      "password": "12345",
+      "username": "bhargav",
+      "type": "user",
+      "id": 24
+    },
+    {
+      "email": "bhargav@gmail.com",
+      "password": "12345",
+      "username": "bhargav",
+      "type": "user",
+      "id": 25
+    },
+    {
+      "email": "bhargav@gmail.com",
+      "password": "12345",
+      "username": "bhargav",
+      "type": "user",
+      "id": 26
+    },
+    {
+      "id": 27
+    },
+    {
+      "id": 28
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "One Plus Nord CE 3 Lite 5G",
+      "price": 19999,
+      "image": "oneplus-nord-ce-3-lite-5g.jpg",
+      "type": "Mobile",
+      "Brand": "OnePlus",
+      "ModelName": "OnePlus Nord CE 3 Lite 5G",
+      "WirelessCarrier": "Unlocked for All Carriers",
+      "OS": "Android 13.0",
+      "CellularTechnology": "5G",
+      "MemoryStorageCapacity": "128 GB",
+      "AboutItem": "The Nord CE 3 Lite's improved on the charging front. It's got the smoothest UI in the segment, a high-resolution snapper that can click some mean photos in the dark, and its new eye-catching green colour is a breath of fresh air"
+    },
+    {
+      "id": 2,
+      "name": "Oppo Reno 8T",
+      "price": 30000,
+      "image": "oppo-reno-8t.png",
+      "type": "Mobile",
+      "Brand": "Oppo",
+      "ModelName": "Reno 8 5G ",
+      "NetworkServiceProvider ": "Unlocked for All Carriers",
+      "OS": "Android 12.0",
+      "Display": "6.9 Inches",
+      "Processor": "Qualcomm Snapdragon 695 5G Octa Core",
+      "Battery&Charging ": "4800 mAh with 67W SUPERVOOC Endurance Edition",
+      "AboutItem": "OPPO Reno8 T 5G is a decent performer which is all set to deliver effective operations to users. The device has a sturdy display along with excellent cameras on both ends. This arrangement allows users to click pristine pictures and videos. Not to mention, the device`s RAM, chipset, battery and storage also leave a solid mark in the minds of everyone."
+    },
+    {
+      "id": 3,
+      "name": "I Phone 14 Pro",
+      "price": 189000,
+      "image": "iphone-14-pro.png",
+      "type": "Mobile",
+      "Brand": "Apple",
+      "ModelName": "I Phone ",
+      "NetworkServiceProvider": "Unlocked for All Carriers",
+      "OS": "IOS",
+      "Display": "6.1 Inches",
+      "AboutItem": "The iPhone 14 Pro has a 2532x1170 resolution with 460 pixels per inch, while the iPhone 13 Pro Max has a 2778x1284 resolution with 458 pixels per inch. Both iPhones feature 1200 nits max brightness for HDR, along with True Tone to match the color temperature of the display to the ambient light, Wide Color for rich, vivid hues, and Haptic Touch for feedback."
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy S22",
+      "price": 89000,
+      "image": "samsung-galaxy-s22-ultra-5g.png",
+      "type": "Mobile",
+      "Description": "Mobile",
+      "Brand": "Samsung",
+      "ModelName": "Samsung Galaxy S23 Ultra",
+      "NetworkServiceProvider": "Unlocked for All Carriers",
+      "OS": "Android 13.0",
+      "CellularTechnology": "5G",
+      "AboutItem": "The Samsung Galaxy S22 is a series of Android-based smartphones designed, developed, manufactured, and marketed by Samsung Electronics as part of its Galaxy S series. Unveiled at Samsung's Galaxy Unpacked event on 9 February 2022. They collectively serve as the successor to the Samsung Galaxy"
+    },
+    {
+      "id": 5,
+      "name": "One Plus 11",
+      "price": 39999,
+      "image": "oneplus-11.png",
+      "type": "Mobile",
+      "Brand": "OnePlus",
+      "ModelName": "OnePlus 11 5G",
+      "NetworkServiceProvider": "Unlocked for All Carriers",
+      "OS": "OxygenOS",
+      "CellularTechnology": "5G, 4G LTE",
+      "AboutItem": "OnePlus 11 is the company's best phone in years. It combines excellent specs, incredible battery life, and a competent camera system all for just $700. While some enthusiasts might miss out on the fast wireless charging from last year's OnePlus 10 Pro — and OxygenOS 13 remains a shell of its former self — this is a big step in the right direction for the company."
+    },
+    {
+      "id": 6,
+      "name": "Fossil Chronograph White Dial Men's Watch-CH2882",
+      "price": 5599,
+      "image": "fossil-chronograph.jpg",
+      "type": "Watch",
+      "AboutItem": "Genuine calfskin leather and a cream dial make our sport inspired Decker his must-have watch for every day. This Decker watch also features a chronograph movement."
+    },
+    {
+      "id": 7,
+      "name": "Zoop Analog Dial Unisex's Watch",
+      "price": 2054,
+      "image": "zoop.jpg",
+      "type": "Watch",
+      "AboutItem": "If this product is sold by Amazon, please review the manufacturers website for warranty information. If this product is sold by another party, please contact the seller directly for warranty information for this product. You may also be able to find warranty information on the manufacturers website."
+    },
+    {
+      "id": 8,
+      "name": "Fastrack Analog Unisex's Watch",
+      "price": 4164,
+      "image": "fastrack.jpg",
+      "type": "Watch",
+      "AboutItem": "With its cool blue tone and silicone strap, this watch is designed to swing both ways. Inspired by the starry skies, the strap is patterned with shapes of animals formed by the constellations. Silver clock hands add a touch of contrast to the dial of this stunning accessory, made for the boys and girls with vision."
+    },
+    {
+      "id": 9,
+      "name": "Samsung Galaxy Tab A8",
+      "price": 199999,
+      "image": "samsung_tab_a8.png",
+      "type": "Tablets",
+      "AboutItem": "Actual viewable area is less due to the rounded corners and the camera hole. 2 When compared to previous Tab S series. Galaxy Tab S8+ and Galaxy Tab S8 Ultra latency is 2.8ms, Galaxy Tab S8 latency is 6.2ms. 3 MicroSD card sold separately. Portion of storage/memory occupied by existing content."
+    },
+    {
+      "id": 10,
+      "name": "Lenovo Intel IdeaPad Duet 3",
+      "price": 29998,
+      "image": "lenovo-intel-ideapad.png",
+      "type": "Tablets",
+      "AboutItem": "Lenovo IdeaPad Duet 3 - 10.3 WUXGA 2-in-1 Laptop (Intel Pentium Silver N5030, 8GB RAM, 128GB eMMC, Intel UHD Graphics 605, Windows 10 Home in S Mode), Lenovo Digital Pen, Grey - Spanish QWERTY Keyboard"
+    },
+    {
+      "id": 11,
+      "name": "ASUS Zenbook Pro 14 Duo",
+      "price": 149999,
+      "image": "asus-zenbook.png",
+      "type": "Laptop",
+      "AboutItem": "ZenBook Duo 14 lets you get things done in style: calmly, efficiently, and with zero fuss. It’s your powerful and elegant next-level companion for on-the-go productivity and creativity, featuring the ScreenPad Plus secondary display with a brand-new tilting design that offers effortless ergonomics and seamless workflows. Powered by the latest 11th Gen Intel Core processors, ZenBook Duo 14 brings you all the benefits of tomorrows technology, today."
+    },
+    {
+      "id": 12,
+      "name": "ASUS Vivobook Pro 14 Duo",
+      "price": 15990,
+      "image": "asus-vivobook.png",
+      "type": "Laptop",
+      "AboutItem": "ASUS ZenBook Duo 14 UX482 lets you get things done in style: calmly, efficiently, and with zero fuss. The secondary touchscreen works seamlessly with the main 14 inch Full HD touchscreen, giving you endless ways to optimize and personalize your workflow. It's your powerful and elegant next-level companion for on-the-go productivity and creativity, featuring the brand-new tilting ScreenPad™ Plus secondary display that offers effortless ergonomics and seamless workflows. A series of handy built-in apps help boost your productivity."
+    },
+    {
+      "id": 13,
+      "name": "Noise Newly Launched Twist Bluetooth Calling Smart Watch",
+      "price": 1799,
+      "image": "Noise.jpg",
+      "type": "Watch",
+      "AboutItem": "This item Noise Newly Launched Twist Bluetooth Calling Smart Watch with 1.38 TFT Biggest Display, Up-to 7 Days Battery, 100+ Watch Faces, IP68, Heart Rate Monitor, Sleep Tracking (Jet Black)"
+    },
+    {
+      "id": 14,
+      "name": "boAt Wave Lite Smartwatch",
+      "price": 1600,
+      "image": "boatwave.jpg",
+      "type": "Watch",
+      "AboutItem": "boAt Wave Lite Smartwatch with 1.69 HD Display, Sleek Metal Body, HR & SpO2 Level Monitor, 140+ Watch Faces, Activity Tracker, Multiple Sports Modes, IP68 & 7 Days Battery Life(Active Black)"
+    },
+    {
+      "name": "VMBS Fast-Fast Active 2 Watch",
+      "image": "vmbs.jpg",
+      "AboutItem": "VMBS Fast-Fast Active 2 Watch -Aluminium, Tracker Heart Rate Monitor Sports Ladies Smart Watch for Android iOS Men Women 44 mm (Black)",
+      "price": 2648,
+      "type": "Watch",
+      "id": 15
+    }
+  ],
+  "review": [
+    {
+      "id": 3002,
+      "name": "shyam",
+      "email": "shyam@gmail.com",
+      "message": "this is my phone"
+    },
+    {
+      "id": 8618,
+      "name": "soorya",
+      "email": "soorya@gmail.com",
+      "message": "this is really a good product"
+    },
+    {
+      "id": 7844,
+      "name": "Rithick",
+      "email": "Rithck@gmail.com",
+      "message": "this  product work"
+    }
+  ]
+}

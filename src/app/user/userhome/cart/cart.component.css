@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+  
+    .btn-btn-danger
+    {
+        border: none;
+        background-color: red;
+        height: 30px;
+        width: 70px;
+        border-radius: 7%;
+    }

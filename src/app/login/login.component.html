@@ -1,0 +1,80 @@
+<div class="login-image">
+  
+</div>
+<div class="container">
+ <mat-card *ngIf="logform">
+    <mat-card-header>
+      <mat-card-title>Login</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+
+       <div> 
+      <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput type="email" [(ngModel)]="email" name="email" required>
+      </mat-form-field>
+      </div>
+
+      <div>
+      <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input matInput type="password" [(ngModel)]="password" name="password" required>
+      </mat-form-field>
+</div>
+
+
+      <div class="errors">{{error}}</div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="login()">Login</button>
+      <button mat-button color="accent" (click)="toggle()" >New user? Sign Up</button>
+    </mat-card-actions>
+  </mat-card>
+  
+  <mat-card *ngIf="!logform">
+    <mat-card-header>
+      <mat-card-title>Register</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+
+    <div>
+      <mat-form-field>
+        <mat-label>Username</mat-label>
+        <input matInput type="text" [(ngModel)]="rusername" name="rusername" required>
+      </mat-form-field>
+      </div>
+
+      <div>
+      <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput type="email" [(ngModel)]="remail" name="remail" required>
+      </mat-form-field>
+     </div>
+
+     <div>
+      <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input matInput type="password" [(ngModel)]="rpassword" name="rpassword" required>
+      </mat-form-field>
+      </div>
+
+      <div>
+      <mat-form-field>
+        <mat-label>Verify Password</mat-label>
+        <input matInput type="password" [(ngModel)]="vpassword" name="vpassword" required>
+      </mat-form-field>
+      </div>
+
+
+      <div class="errors">{{rerror}}</div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="register()">Register</button>
+      <button mat-button color="accent" (click)="toggle()">Already Registered? Click me</button>
+    </mat-card-actions>
+  </mat-card>
+  </div> 
+
+
+
+

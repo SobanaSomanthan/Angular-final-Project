@@ -1,0 +1,14 @@
+ <div class="container">
+    <div class="select-container">
+      <select [(ngModel)]="selected">
+        <option *ngFor="let x of types">{{x}}</option>
+      </select>
+    </div>
+    <div class="search-container">
+      <input type="text" class="search" matInput [(ngModel)]="searchText" placeholder="Search for Products">
+    </div>
+    <div class="product-scroll">
+      <app-product *ngFor="let x of products | typefilter:selected | search: searchText" [product]="x"></app-product>
+    </div>
+  </div>
+  

@@ -1,0 +1,25 @@
+<div id="Productdetails-container">
+    <div id="image-block">
+        <img src="http://localhost/{{state.image}}">
+    </div>
+    <div class="description-block">
+       <h3 style="font-weight: bolder; font-family: 'Gill Sans'; font-size: 20px;">{{state.name}}</h3>
+        <p>
+           {{state.description}}
+       </p>
+       <p>
+            {{state.price | currency: "INR"}}
+       </p>
+       <p>{{state.type}}</p>
+       <p>{{state.Brand}}</p>
+       <p>{{state.ModelName}}</p>
+       <p>{{state.WirelessCarrier}}</p>
+       <p>{{state.OS}}</p>
+       <p>{{state.CellularTechnology}}</p>
+       <p>{{state.MemoryStorageCapacity}}</p>
+       <a style="margin-left: 150px; font-weight: bold;">About item</a>
+        <p style="padding-top: 10px; box-sizing: border-box;">{{state.AboutItem}}</p>
+    </div>
+</div>
+<app-review></app-review>
+<app-review-box></app-review-box>

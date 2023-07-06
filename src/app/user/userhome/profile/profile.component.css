@@ -1,0 +1,36 @@
+
+.backgroundimage {
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #e6edec;
+}
+.profile-image{
+  position: absolute;
+  top: 90px;
+  left:77%;
+  height: 250px;
+  width: 250px;
+  }
+.profile-details {
+  position: absolute;
+  top: 400px;
+  left: 73%;
+  width: 300px;
+  max-width: 50%;
+  padding: 30px;
+  
+}
+
+.username{
+  font-family: 'Gill Sans';
+  font-weight: bolder;
+  font-size: 30px;
+}
+.profile-details{
+  text-align: right;
+  font-family: 'Trebuchet MS';
+  padding: 20px;
+}

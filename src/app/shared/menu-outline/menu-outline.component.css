@@ -1,0 +1,25 @@
+.menu-bar{
+    width:100%;
+    background-color: darkblue;
+}
+.title{
+    margin-left: 20px;
+    font-family: Calibri;
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+a{
+    margin-left: 50px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: antiquewhite ! important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu-title{
+    display: flex;
+    float: right;
+    margin-left: 650px;
+}
